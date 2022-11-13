@@ -14,7 +14,7 @@ import br.com.project.repositories.UserRepository;
 
 @Service
 @Transactional
-public class UserDetailsServiceImpl implements UserDetailsService{
+public class UserDetailsServicesImpl implements UserDetailsService{
 
     @Autowired
     private UserRepository userRepository;
