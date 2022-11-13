@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 @RestController
 public class UserController {
     
-    @GetMapping(value="")
+    @GetMapping("")
     public String main() {
         return "Rota principal pública.";
     }
 
-    @PostMapping(value="")
+    @PostMapping("")
     public String post() {
         return "Rota de postagens.";
     }
